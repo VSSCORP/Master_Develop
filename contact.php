@@ -9,6 +9,7 @@
 
 <div class="pages-stack">
 		
+<?php $pageStyle="page"?>
 <?php include 'page/contactinfo.php';?>
 <?php $pageStyle="page page--inactive"?>
 

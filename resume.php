@@ -8,6 +8,7 @@
 <?php include 'navigation.php';?>
 
 <div class="pages-stack">
+<?php $pageStyle="page"?>
 <?php include 'page/resumefile.php';?>
 <?php $pageStyle="page page--inactive"?>
 

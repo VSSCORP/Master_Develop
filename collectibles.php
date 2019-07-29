@@ -9,6 +9,7 @@
 
 <div class="pages-stack">
 		
+<?php $pageStyle="page"?>
 <?php include 'page/collectible.php';?>
 <?php $pageStyle="page page--inactive"?>
 

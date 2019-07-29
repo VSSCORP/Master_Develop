@@ -9,6 +9,7 @@
 
 <div class="pages-stack">
 		
+<?php $pageStyle="page"?>
 <?php include 'page/ideasExp.php';?>
 <?php $pageStyle="page page--inactive"?>
 
