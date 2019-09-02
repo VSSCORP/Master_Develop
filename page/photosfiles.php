@@ -1,14 +1,7 @@
 	<!-- page_Photos -->
-	<div class="<?php echo $pageStyle ?>" id="page-photos" style = "overflow: auto;">
-		<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        <div class="title">Photos</div>
-      </div>
+		<div class="window <?php echo $pageStyle ?>" id="page-photos" style = "overflow: auto;">
+     <?php $windowTitle="Photos" ?>
+    <?php include 'windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Photos</h1>
@@ -80,5 +73,5 @@
 			</div><!-- /content--works -->
 		
     </div>
-</div></div></div>
+</div></div>
 <!-- page_Photos -->

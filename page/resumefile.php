@@ -1,14 +1,8 @@
 	<!-- page_Resume -->
-	<div class="page" id="page-resume">
-		<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        <div class="title">Resume</div>
-      </div>
+		<div class="window page" id="page-resume">
+      
+      <?php $windowTitle="Resume" ?>
+    <?php include 'windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Resume</h1>
@@ -18,7 +12,6 @@
 				</p>
 			</header>
 			
-		</div>
 		</div>
 		</div>
 		<!-- /page_Resume -->

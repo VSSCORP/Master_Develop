@@ -53,10 +53,10 @@
 <body>
 <div id="doggerpopup">
 <ul class="rslides">
-  <li><img src="img/8.jpg" alt="vxc" ></li>
-  <li><img src="img/3.jpg" alt="cvdf"></li>
-  <li><img src="img/arr.jpg" alt="df" ></li>
-  <li><img src="img/celeb.jpg" alt="da"></li>
+  <li><img src="images/F.JPG" alt="vxc" ></li>
+  <li><img src="images/12.JPG" alt="cvdf"></li>
+  <li><img src="images/14.JPG" alt="df" ></li>
+  <li><img src="images/IMG-8050.JPG" alt="da"></li>
 </ul>
 </div>
 

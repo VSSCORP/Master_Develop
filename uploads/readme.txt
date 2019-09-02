@@ -1,0 +1,1 @@
+Location where upload images will be saved.

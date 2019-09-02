@@ -1,15 +1,8 @@
  	<!-- page_Collectible -->
-		<div class="page" id="page-collec" style = "overflow:auto;">
-		<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        
-      <div class="title">Collectibles</div>
-      </div>
+		
+		<div class="window page" id="page-collec">
+     <?php $windowTitle="Collectibles" ?>
+    <?php include 'windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Collectibles</h1>
@@ -63,8 +56,6 @@
       </div>
     </div>
     </section>
-		
-		</div>
 		</div>
 		</div>
 	<!-- /page_Collectible -->

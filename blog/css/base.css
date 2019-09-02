@@ -259,7 +259,7 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
@@ -929,18 +929,17 @@ textarea {
     color: #f0f0f0;
     position: relative;
     text-align: center;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 
 .title {
     font-weight: 500;
-    font-size: 0.8em !important;
+    font-size: 1.7em;
 }
 
 .trafficLights {
     position: absolute;
     left: 10px;
-    top: 3px;
 }
 
 .trafficLight {

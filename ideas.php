@@ -2,8 +2,6 @@
 <html>
 <head>
 <?php include 'head.php';?>
-<link href="css/component.css" rel="stylesheet">
-<link href="css/detail.css" rel="stylesheet">
 
 </head>
 <body>
@@ -11,6 +9,7 @@
 
 <div class="pages-stack">
 		
+<?php $pageStyle="page"?>
 <?php include 'page/ideasExp.php';?>
 <?php $pageStyle="page page--inactive"?>
 

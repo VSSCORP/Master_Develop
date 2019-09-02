@@ -172,8 +172,8 @@
 		for(var i = 0, len = stackPagesIdxs.length; i < len; ++i) {
 			
 			var page = pages[stackPagesIdxs[i]];
-			page.style.WebkitTransform = 'translate3d(0,100%,0)';
-			page.style.transform = 'translate3d(0,100%,0)';
+			page.style.WebkitTransform = 'translate3d(0,0,0)';
+			page.style.transform = 'translate3d(0,0,0)';
 			
 		}
 

@@ -1,14 +1,8 @@
 <!-- page_Home -->
-		<div class="<?php echo $pageStyle ?>" id="page-home">
-		<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        <div class="title">Home</div>
-      </div>
+		<div class="window <?php echo $pageStyle ?>" id="page-home">
+
+		<?php $windowTitle="Home" ?>
+		<?php include 'windowheader.php';?>
       <div class="contentArea">
     
 		<!-- Page header -->
@@ -24,6 +18,6 @@
 		
 	
 			
-			</div></div>
+			</div>
 		</div>
 		<!-- /page_Home -->

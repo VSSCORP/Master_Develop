@@ -1,5 +1,5 @@
 <!-- page_Blog -->
-<div class="page" id="page-blog">
+
   <style>
   
 
@@ -77,15 +77,10 @@ input[type="search"]:focus ~ input[type="reset"], input[type="text"]:valid ~ inp
  * credit to @designcouch for suggesting this. */
 
     </style>
-		<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        <div class="title">Blog</div>
-      </div>
+    
+		<div class="window page" id="page-blog">
+      <?php $windowTitle="Blog" ?>
+    <?php include 'windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Blog</h1>
@@ -104,8 +99,6 @@ input[type="search"]:focus ~ input[type="reset"], input[type="text"]:valid ~ inp
 				</p>
 			</header>
 			
-		</div>
-		
 		</div>
 </div>
 

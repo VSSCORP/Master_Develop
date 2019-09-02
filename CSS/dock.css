@@ -66,6 +66,136 @@ html {}
 }
 
 
+.tooltip{
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    line-break: auto;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    font-size: 12px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    }
+    .tooltip.top {
+      padding: 5px 0;
+    margin-top: -95px;
+    margin-left: 30px;
+
+}
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: white;
+}
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.tooltip-inner {
+      margin-top: -18px;
+      max-width: 200px;
+      padding: 4px 15px;
+      color: black;
+      text-align: center;
+      background-color: white;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: bold;
+}
+.tooltipwrap:hover .tooltip{
+opacity: .9;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) {
+  #dock-container li img {
+    width:14px;
+    height: 14px;
+  }
+  .tooltip.top {
+    margin-top: -45px;
+    margin-left: 25px;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #dock-container li img {
+    width:24px;
+    height: 24px;
+  }
+  .tooltip.top {
+    margin-top: -55px;
+    margin-left: 20px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #dock-container li img {
+    width: 34px;
+    height: 34px;
+  }
+  .tooltip.top {
+    margin-top: -65px;
+    margin-left: 25px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #dock-container li img {
+    width: 44px;
+    height: 44px;
+  }
+  .tooltip.top {
+    margin-top: -75px;
+    margin-left: 25px;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #dock-container li img {
+    width: 60px;
+    height: 60px;
+  }
+  .tooltip.top {
+    margin-top: -90px;
+    margin-left: 30px;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #dock-container li img {
+    width: 64px;
+    height: 64px;
+  }
+  .tooltip.top {
+    margin-top: -95px;
+    margin-left: 30px;
+	}
+}
 /* #rcorners {
     border: 2px solid #D5DCDC;
     font-family: 'Dosis', sans-serif;

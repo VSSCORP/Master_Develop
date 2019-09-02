@@ -1,15 +1,8 @@
 <!-- page_Quotes -->
-<div class="page" id="page-quotes" style = "overflow:auto;">
-		<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        <div class="title">Quotes</div>
-      </div>
-      </div>
+
+		<div class="window page" id="page-quotes" style = "overflow:auto;">
+      <?php $windowTitle="Quotes" ?>
+    <?php include 'windowheader.php';?>
       <div class="contentArea" href = "quotes.html">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Quotes</h1>
@@ -95,8 +88,6 @@
   
 </ul>
 
-		</div>
-			
 		</div>
 	</div>
 <!-- /page_Quotes -->
