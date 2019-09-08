@@ -1,4 +1,4 @@
-<header class="ui-draggable-handle">
+<div class="ui-draggable-handle">
       <div class="titleBar">
         <div class="trafficLights">
         <div class="trafficLight close" >
@@ -13,4 +13,7 @@
         </div>
         <div class="title"><?php echo $windowTitle ?></div>
       </div>
-  </header>
+      <input type="hidden" value="1" id="ismax"/>
+      <input type="hidden" value="0" id="ismin"/>
+  </div>
+  

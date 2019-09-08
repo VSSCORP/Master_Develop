@@ -247,7 +247,9 @@ div {
 }
 
 </style>
-
+<?php $windowTitle="Blog" ?>
+        <?php include '../components/windowheader.php';?>
+        <div class="contentArea">
 <div class="outer-container blog-page">
     <div class="container-fluid">
         <div class="row" id="myUL">
@@ -405,6 +407,8 @@ div {
         </div>
     </div>
 </div>
+</div>
+
 <script>
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
@@ -427,3 +431,5 @@ function myFunction() {
     }
 }
 </script>
+
+         <script src="js/window.js"></script>

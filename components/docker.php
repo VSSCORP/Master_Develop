@@ -12,34 +12,34 @@
       <li  id="launchpadicon"  class="tooltipwrap">
 
       <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Menu</div></div>
-        <a href="#"  ><img src="icons/menu.svg"></a>
+        <a href="#"  onclick="loadWindow('home')" ><img src="icons/menu.svg"></a>
       </li>
       <li id="galarySlide"   class="tooltipwrap">
 
       <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Photos</div></div>
       <!--  <span id="rcorners">Photos</span>-->
-        <a href="photos.php"><img src="icons/photos.svg"></a>
+        <a href="#" onclick="loadWindow('photosfiles')"><img src="icons/photos.svg"></a>
       </li>
      <li  class="tooltipwrap">
 
       <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Message</div></div>
 
-        <a href="contact.php"><img src="icons/message.jpg"/></a>
+        <a href="#" onclick="loadWindow('contactinfo')"><img src="icons/message.jpg"/></a>
      </li>
       <li  class="tooltipwrap">
 
       <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Blog</div></div>
-      <a href="blog.php"><img src="icons/Blog.svg"/></a>
+      <a href="#" onclick="loadWindow('blogContent')"><img src="icons/Blog.svg"/></a>
       </li>
       <li  class="tooltipwrap">
 
       <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Resume</div></div>
-        <a href="Resume.php"><img src="icons/Resume.svg"/></a>
+        <a href="#" onclick="loadWindow('resumefile')"><img src="icons/Resume.svg"/></a>
       </li>
        <li  class="tooltipwrap">
        <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Mail</div></div>
 
-        <a href="mailme.php"><img src="icons/github.svg"/></a>
+        <a href="#" onclick="loadWindow('mailme')"><img src="icons/github.svg"/></a>
       </li>
         <li  class="tooltipwrap">
         <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">iTunes</div></div>
@@ -70,15 +70,3 @@
  </div>
 </div>
 </div>
-
-<script>
-//menu-button
-
-$(document).ready(function(){
-  $("#openMenuBtn").click(function(){
-	  console.log("goto menu");
-    launchpadclose();
-	  $(".menu-button").click();
-  });
-});
-</script>

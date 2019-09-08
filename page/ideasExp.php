@@ -1,12 +1,14 @@
 
 	<!-- page_ideas&Experiments -->
-		<div class="window page" id="page-custom">
+		<!-- <div class="window page" id="page-custom"> -->
       <?php $windowTitle="Ideas & Experiments" ?>
-    <?php include 'windowheader.php';?>
+    <?php include '../components/windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Ideas &amp; Experiments</h1>
 			</header>
 		</div>
-	</div>
+	<!-- </div> -->
 		<!-- /page_ideas&Experiments -->
+
+		 <script src="js/window.js"></script>

@@ -78,9 +78,9 @@ input[type="search"]:focus ~ input[type="reset"], input[type="text"]:valid ~ inp
 
     </style>
     
-		<div class="window page" id="page-blog">
+		<!-- <div class="window page" id="page-blog"> -->
       <?php $windowTitle="Blog" ?>
-    <?php include 'windowheader.php';?>
+    <?php include '../components/windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Blog</h1>
@@ -100,6 +100,7 @@ input[type="search"]:focus ~ input[type="reset"], input[type="text"]:valid ~ inp
 			</header>
 			
 		</div>
-</div>
+<!-- </div> -->
 
 <!-- /page_Blog -->
+     <script src="js/window.js"></script>

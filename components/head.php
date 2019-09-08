@@ -16,6 +16,14 @@
 	<link rel="stylesheet" type="text/css" href="css/quotes.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" type="text/css" href="css/dock.css" />
+		<!-- <script src="js/main.js"></script> 
+	<script src="js/custom.js"></script>-->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="js/responsiveslides.min.js"></script>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
 	<script src="js/modernizr-custom.js"></script>
 	<link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" 
 rel="stylesheet" type="text/css">

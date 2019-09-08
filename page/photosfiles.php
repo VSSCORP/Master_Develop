@@ -1,7 +1,9 @@
-	<!-- page_Photos -->
-		<div class="window <?php echo $pageStyle ?>" id="page-photos" style = "overflow: auto;">
+
+ <?php include 'gallerybuffer.php';?>
+	<!-- page_Photos 
+		<div class="window page" id="page-photos" style = "overflow: auto;">-->
      <?php $windowTitle="Photos" ?>
-    <?php include 'windowheader.php';?>
+    <?php include '../components/windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Photos</h1>
@@ -73,5 +75,14 @@
 			</div><!-- /content--works -->
 		
     </div>
-</div></div>
-<!-- page_Photos -->
+</div>
+<!--</div>
+ page_Photos -->
+ <link rel="stylesheet" type="text/css" href="css/base.css" />
+<link href="css/photos/photos.css" rel="stylesheet">
+			<style>
+			.js .grid__item-wrap,.js .grid__item-year,.js .grid__item-title {
+				opacity: 1;
+			}
+		</style>
+ <script src="js/window.js"></script>

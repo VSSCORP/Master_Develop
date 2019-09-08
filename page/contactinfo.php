@@ -1,7 +1,7 @@
 	<!-- page_Contact -->
-		<div class="window page" id="page-contact">
+		<!-- <div class="window page" id="page-contact"> -->
       <?php $windowTitle="Contact" ?>
-    <?php include 'windowheader.php';?>
+    <?php include '../components/windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Contact</h1>
@@ -648,5 +648,7 @@ if(parent==top) {
 }
 </script>
 			</div>
-		</div>
+<!-- 		</div> -->
 	<!-- page_Contact -->
+
+     <script src="js/window.js"></script>

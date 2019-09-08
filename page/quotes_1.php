@@ -1,6 +1,6 @@
 <!-- page_Quotes -->
 
-		<div class="window page" id="page-quotes" style = "overflow:auto;">
+		<!-- <div class="window page" id="page-quotes" style = "overflow:auto;"> -->
       <?php $windowTitle="Quotes" ?>
     <?php include 'windowheader.php';?>
       <div class="contentArea" href = "quotes.html">
@@ -89,5 +89,6 @@
 </ul>
 
 		</div>
-	</div>
+	
+     <script src="js/window.js"></script>
 <!-- /page_Quotes -->

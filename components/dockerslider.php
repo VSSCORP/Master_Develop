@@ -59,11 +59,8 @@
   <li><img src="images/IMG-8050.JPG" alt="da"></li>
 </ul>
 </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="js/responsiveslides.min.js"></script>
 <script>
-  $(function() {
+  $(document).ready(function(){
 	  console.log("onload");
     $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false

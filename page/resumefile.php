@@ -1,8 +1,8 @@
 	<!-- page_Resume -->
-		<div class="window page" id="page-resume">
+		<!-- <div class="window page" id="page-resume"> -->
       
       <?php $windowTitle="Resume" ?>
-    <?php include 'windowheader.php';?>
+    <?php include '../components/windowheader.php';?>
       <div class="contentArea">
 			<header class="bp-header cf">
 				<h1 class="bp-header__title">Resume</h1>
@@ -13,5 +13,6 @@
 			</header>
 			
 		</div>
-		</div>
+		<!-- </div> -->
 		<!-- /page_Resume -->
+		 <script src="js/window.js"></script>

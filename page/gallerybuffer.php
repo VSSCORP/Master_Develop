@@ -55,20 +55,18 @@
   <path d="M250,238L250,238c-27.6,0-50-22.4-50-50v-46c0-27.6,22.4-50,50-50h0c27.6,0,50,22.4,50,50v46 C300,215.6,277.6,238,250,238z" id="pink"      fill="url(#pinkGrad)" />
   <path d="M250,238L250,238c-27.6,0-50-22.4-50-50v-46c0-27.6,22.4-50,50-50h0c27.6,0,50,22.4,50,50v46 C300,215.6,277.6,238,250,238z" id="red"       fill="url(#redGrad)" />
 </svg>
-</div>
+
 <style>
   #buffercover {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: 110%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #565656;
-
-    opacity: 0.6;
 }
 svg {
   width: 192px;
@@ -131,3 +129,4 @@ var myVar = setInterval(function() {
 setTimeout(function(){clearInterval(myVar);$("#buffercover").fadeOut();}, 5000);
 
 </script>
+</div>
