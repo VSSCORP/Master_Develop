@@ -29,6 +29,7 @@
 				height = height-31;
             	$("#pages-stack").append('<div class="window page ui-draggable" id="'+page+'" style="height:'+height+'px"></div>');
                $("#"+page).load("page/"+page+".php");
+               selectWindow($("#"+page));
 			}
 	}
 
