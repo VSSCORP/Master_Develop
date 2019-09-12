@@ -12,6 +12,9 @@
   overflow:hidden !important;
   opacity: 0;
 }
+body{
+	background: url(https://harnerdesigns.com/wp-content/uploads/2018/05/universe-wallpaper.jpg) center center/cover fixed no-repeat;
+}
   </style>
 
 <script type="text/javascript">
@@ -26,7 +29,7 @@
 				currPage = page;
 				var height = $( document ).height();	
 				console.log(height);
-				height = height-31;
+				height = height-31-18;
             	$("#pages-stack").append('<div class="window page ui-draggable" id="'+page+'" style="height:'+height+'px"></div>');
                $("#"+page).load("page/"+page+".php");
                selectWindow($("#"+page));

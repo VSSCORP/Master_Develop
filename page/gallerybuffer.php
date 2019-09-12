@@ -66,7 +66,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #565656;
+  background-color: darkgray;
 }
 svg {
   width: 192px;
@@ -103,7 +103,7 @@ path {
 .show #red        { -webkit-transform: rotate(315deg); transform: rotate(315deg);  transition-delay:   0ms;}
 
 circle {
-  fill: white;
+  fill: transparent;
   opacity: 0;
   -webkit-transform-origin: 250px 250px;
           transform-origin: 250px 250px;
