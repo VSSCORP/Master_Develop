@@ -19,6 +19,12 @@ body{
 
 <script type="text/javascript">
 	var currPage;
+	function selectWindow(w) {
+	  var id = w.attr("id");
+	  $(".window:not(#" + id + ")").css("z-index", "2");
+	  w.css("z-index", "10");
+	  hideMenu();
+	}
 	function loadWindow(page){	
 			if(page=="photosfiles"){
 				$("#doggerpopup").css("display","none");
@@ -34,8 +40,14 @@ body{
                $("#"+page).load("page/"+page+".php");
                selectWindow($("#"+page));
 			}
+			hideMenu();
 	}
 
+function hideMenu(){
+	$(".visible").removeClass("visible");
+			$(".selected").removeClass("selected");
+			claseMenu();
+}
 //menu-button
 
 $(document).ready(function(){

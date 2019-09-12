@@ -238,7 +238,7 @@ rel="stylesheet" type="text/css">
 						</div>
 				</li>
 				<li><i class="fa fa-search"></i></li>
-				<li><i class="fa fa-bars"></i></li>
+				<li id="menuBtn"><i class="fa fa-bars"></i></li>
 		</ul>
 </header>
 <style>
@@ -263,11 +263,13 @@ body {
   -ms-user-select: none;
   user-select: none;
   color: black;
+  z-index: 20;
 }
 
 .iostaskbar ul {
   margin: 0 5px;
   padding: 0 3px;
+  z-index: 20;
 }
 
 .iostaskbar li {
@@ -475,5 +477,30 @@ $(".iostaskbar ul li").click(function(e) {
 		$(this).addClass("selected");
 });
 
+var isMenuOpen = false;
+$("#menuBtn").click(function(e){
+	toggleMenu();
+});
+
+// toggle menu fn
+	function toggleMenu() {
+		if( isMenuOpen ) {
+			$(".pages-nav").removeClass('pages-nav--open');
+			$("#menuBtn").css("z-index","1");
+			isMenuOpen = false;
+		}
+		else {
+			$(".pages-nav").addClass('pages-nav--open');
+			$("#menuBtn").css("z-index","30");
+			isMenuOpen = true;
+		}
+	}
+
+	function claseMenu(){
+		$(".pages-nav").removeClass('pages-nav--open');
+			$("#menuBtn").css("z-index","1");
+			isMenuOpen = false;
+	}
+	
 </script>
 </body>

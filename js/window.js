@@ -57,6 +57,7 @@ var gw;
 	  var id = w.attr("id");
 	  $(".window:not(#" + id + ")").css("z-index", "2");
 	  w.css("z-index", "10");
+	  hideMenu();
 	}
 
 //});

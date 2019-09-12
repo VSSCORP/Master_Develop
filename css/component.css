@@ -32,16 +32,18 @@ html.js,
     padding: 30px;
     pointer-events: none;
     opacity: 0;
-    background: transparent;
+    background: black;
     -webkit-transition: -webkit-transform 1.2s, opacity 1.2s;
     transition: transform 1.2s, opacity 1.2s;
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-    -webkit-transform: translate3d(0, 150px, 0);
-    transform: translate3d(0, 150px, 0);
+    -webkit-transform: translate3d(0, -150px, 0);
+    transform: translate3d(0, -150px, 0);
 }
 
 .js .pages-nav--open {
+    margin-top: -20px;
+    z-index: 20;
     pointer-events: auto;
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -573,3 +575,4 @@ b.effect-box:hover:before {
 .trafficLight:hover .zoombutton,.trafficLight:hover .minimizebutton,.trafficLight:hover .closebutton{
     visibility: visible;
 }
+

@@ -4,6 +4,7 @@
 <?php include 'components/head.php';?>
 </head>
 <body>
+<?php include 'components/navigation.php';?>
 <div class="pages-stack" id="pages-stack">
 </div>
 
