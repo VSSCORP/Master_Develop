@@ -86,3 +86,21 @@
 			}
 		</style>
  <script src="js/window.js"></script>
+ <script>
+	$(document).ready(function(){
+	$(".grid__item-img").click(function(){
+		var imgpath =this.style.backgroundImage.replace('url("',"").replace('")',""); 
+		console.log(imgpath);
+		$("#img01").attr('src',imgpath);
+		//grid__item-title
+		$("#galaryPopupContainer").show();
+		var imgcaption = this.parentElement.nextElementSibling.nextElementSibling.innerText;
+		$("#img01caption").text(imgcaption);
+	});
+	$("#galaryPopupContainer").click(function(){
+		$("#galaryPopupContainer").hide();
+	});
+});
+
+
+</script>

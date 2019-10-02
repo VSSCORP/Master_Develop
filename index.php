@@ -12,5 +12,6 @@
 <?php include 'components/docker.php';?>
 <!-- <?php include 'components/launchpad.php';?> -->
 <?php include 'components/footer.php';?>
+<?php include 'components/galaryPopup.php';?>
 </body>
 </head>
