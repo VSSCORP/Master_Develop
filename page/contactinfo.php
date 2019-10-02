@@ -67,7 +67,7 @@
 	    font-size: 35px;
 	    vertical-align: middle;
 	    color: #3d6ad4;
-	    margin-left: -40px;
+	    margin-left: -10%;
 	    margin-top: 4px;
 	    " aria-hidden="true"></i>
 		
@@ -506,7 +506,7 @@ function mysleep(id,sec,flag){
 
 function mailme(msg){
 	//http://ram.udesign.online/mail.php
-	 $.post('mail.php', { message: msg},
+	 $.post('api/mail.php', { message: msg},
     function(returnedData){
          console.log(returnedData);
 });
