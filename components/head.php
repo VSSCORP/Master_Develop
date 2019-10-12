@@ -75,7 +75,7 @@ rel="stylesheet" type="text/css">
 								</ul>
 						</div>
 				</li>
-				<li><strong>Finder</strong>
+			<!-- 	<li><strong>Finder</strong>
 						<div class="submenu">
 								<ul>
 										<li>About Finder</li>
@@ -203,10 +203,10 @@ rel="stylesheet" type="text/css">
 										<li>Help Center</li>
 								</ul>
 						</div>
-				</li>
+				</li> -->
 		</ul>
 		<ul class="right">
-				<li><a href="#" target='_blank'><i class="fa fa-codepen"></i></a></li>
+				<!-- <li><a href="#" target='_blank'><i class="fa fa-codepen"></i></a></li> -->
 				<li><a href="#" target='_blank'><i class="fa fa-twitter"></i></a></li>
 				<li id="volume-icon-li"><i class="fa fa-volume-off" id="volume-icon"></i>
 						<div class="submenu">
@@ -494,12 +494,28 @@ $("#menuBtn").click(function(e){
 			$("#menuBtn").css("z-index","30");
 			isMenuOpen = true;
 		}
+		resizeDocWindows(isMenuOpen);
+	}
+
+	function resizeDocWindows(flag){
+			var docAllWin =$("#pages-stack .window");
+			var maxWin = Math.min(docAllWin.length,5);
+			for(var i=0;i<maxWin;i++){
+				var currWinElem = docAllWin[i];
+				if(flag){
+					$(currWinElem).addClass("docResizeWin"+(i+1));
+				}else{
+					$(".window").removeClass("docResizeWin"+(i+1));
+				}
+			}
 	}
 
 	function claseMenu(){
 		$(".pages-nav").removeClass('pages-nav--open');
 			$("#menuBtn").css("z-index","1");
 			isMenuOpen = false;
+
+		resizeDocWindows(isMenuOpen);
 	}
 	
 </script>

@@ -126,15 +126,26 @@ opacity: .9;
 
 
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+  #dock-container li img {
+    width:8px;
+    height: 8px;
+  }
+  .tooltip.top {
+    margin-top: -25px;
+    margin-left: 12px;
+  }
+}
+
 @media only screen and (min-width: 300px) {
   #dock-container li img {
     width:14px;
     height: 14px;
   }
   .tooltip.top {
-    margin-top: -45px;
-    margin-left: 25px;
-	}
+    margin-top: -35px;
+    margin-left: 15px;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -144,8 +155,8 @@ opacity: .9;
     height: 24px;
   }
   .tooltip.top {
-    margin-top: -55px;
-    margin-left: 20px;
+    margin-top: -45px;
+    margin-left: 18px;
 	}
 }
 
@@ -156,44 +167,44 @@ opacity: .9;
     height: 34px;
   }
   .tooltip.top {
-    margin-top: -65px;
-    margin-left: 25px;
+    margin-top: -50px;
+    margin-left: 20px;
 	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #dock-container li img {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
   }
   .tooltip.top {
-    margin-top: -75px;
-    margin-left: 25px;
+    margin-top: -60px;
+    margin-left: 22px;
 	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #dock-container li img {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
   }
   .tooltip.top {
-    margin-top: -90px;
-    margin-left: 30px;
+    margin-top: -65px;
+    margin-left: 25px;
 	}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   #dock-container li img {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
   }
   .tooltip.top {
-    margin-top: -95px;
-    margin-left: 30px;
+    margin-top: -70px;
+    margin-left: 28px;
 	}
 }
 /* #rcorners {
@@ -203,3 +214,65 @@ opacity: .9;
 
 
 /* Dock End*/
+
+/* Dock Resize Window*/
+
+.docResizeWin1{
+  
+  -webkit-transition: all 0.3s;
+    left:0px !important;
+    top:0px !important;
+    margin-top: 50vh !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    z-index: 21 !important;
+
+    
+}
+.docResizeWin2{
+  
+  -webkit-transition: all 0.3s;
+    left:0px !important;
+    top:0px !important;
+    margin-top: 56vh !important;
+    width: 80% !important;
+    margin-left: 10% !important;
+    z-index: 22 !important;
+
+    
+}
+.docResizeWin3{
+
+  -webkit-transition: all 0.3s;
+      left:0px !important;
+    top:0px !important;
+    margin-top: 62vh !important;
+    width: 70% !important;
+    margin-left: 15% !important;
+    z-index: 23 !important;
+
+}
+.docResizeWin4{
+  
+  -webkit-transition: all 0.3s;
+    left:0px !important;
+    top:0px !important;
+    margin-top: 68vh !important;
+    width: 60% !important;
+    margin-left: 20% !important;
+    z-index: 24 !important;
+
+    
+}
+.docResizeWin5{
+ 
+  -webkit-transition: all 0.3s;
+     left:0px !important;
+    top:0px !important; 
+    margin-top: 74vh !important;
+    width: 50% !important;
+    margin-left: 25% !important;
+    z-index: 25 !important;
+  
+  
+}
