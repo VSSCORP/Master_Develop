@@ -22,39 +22,17 @@
 
 </head>
 
-<body id="top">
+<body>
 
     <!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <div class="<?php echo $pageStyle ?>">
-        <div class="window">
-            <div class="titleBar">
-                <div class="trafficLights">
-                    <div class="trafficLight close"></div>
-                    <div class="trafficLight min"></div>
-                    <div class="trafficLight max"></div>
-                </div>
-                <div class="title">Not a fairy-tale, but a story</div>
-            </div>
-            <!-- s-content
+     <!-- s-content
     ================================================== -->
             <section class="s-content s-content--top-padding s-content--narrow">
 
                 <article class="row entry format-standard">
 
-                    <div class="entry__media col-full">
-                        <div class="entry__post-thumb">
-                            <img src="images/thumbs/single/standard/sunrise.jpg" alt="" style="top:30px">
-                        </div>
-                    </div>
-
+                    
                     <div class="entry__header col-full">
                         <h1 class="entry__header-title display-1">
                             Not a fairy-tale, but a story.
@@ -66,6 +44,11 @@
                                 <a href="#0">Ram Katneni</a>
                             </li>
                         </ul>
+                    </div>
+<div class="entry__media col-full">
+                        <div class="entry__post-thumb">
+                            <img src="images/thumbs/single/standard/sunrise.jpg" alt="" style="top:30px">
+                        </div>
                     </div>
 
                     <div class="col-full entry__main">
@@ -156,7 +139,7 @@
                             </a>
                         </div>
                         <div class="col-six s-content__next">
-                            <a href="single-standard.html" rel="next">
+                            <a href="single-standard.php" rel="next">
                                 <span>Next Post</span> The inside spring.
                             </a>
                         </div>

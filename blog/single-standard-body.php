@@ -2,15 +2,7 @@
 
 <article class="row entry format-standard">
 
-    <div class="">
-        <div class="entry__post-thumb">
-            <img src="images/thumbs/single/standard/standard-1000.jpg" srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
-                 images/thumbs/single/standard/standard-1000.jpg 1000w, 
-                 images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
-        </div>
-    </div>
-
-    <div class="entry__header col-full">
+<div class="entry__header col-full">
         <h1 class="entry__header-title display-1">
             The Inside Spring!
         </h1>
@@ -22,6 +14,15 @@
             </li>
         </ul>
     </div>
+    <div class="">
+        <div class="entry__post-thumb">
+            <img src="images/thumbs/single/standard/standard-1000.jpg" srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
+                 images/thumbs/single/standard/standard-1000.jpg 1000w, 
+                 images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+        </div>
+    </div>
+
+    
 
     <div class="col-full entry__main">
 
@@ -116,7 +117,7 @@
 <div class="s-content__entry-nav">
     <div class="row s-content__nav">
         <div class="col-six s-content__prev">
-            <a href="single-fairytale.html" rel="prev">
+            <a href="single-fairytale.php" rel="prev">
                 <span>Previous Post</span> Not a fairy-tale, but a story.
             </a>
         </div>

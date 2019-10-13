@@ -263,22 +263,12 @@ rel="stylesheet" type="text/css">
         </style>
 </head>
 <body>
-<div class="page">
-	<div class="window">
-      <div class="titleBar">
-        <div class="trafficLights">
-        <div class="trafficLight close" ></div>
-          <div class="trafficLight min" ></div>
-          <div class="trafficLight max" ></div>
-        </div>
-        <div class="title"><?php echo $pageTitle ?></div>
-      </div>
-      <div class="contentArea" id="top">
+      <div class="contentArea2">
       <div class="wrapper tooltip" onclick="goBack()" style="margin-top: 15px;position: absolute;width: 70px;height: 70px;">
                 <i class="fa fa-arrow-left"></i>
                 <span class="tooltiptext" style="margin:0px;">Go Back</span>
         </div>
-
+        <span id="top"></span>
         <?php include $pageBody ?>
 
         <span class="gotop tooltip">
@@ -288,8 +278,7 @@ rel="stylesheet" type="text/css">
                 <span class="tooltiptext">Back to<br/> Top</span>
         </span>
       </div>
-    </div>
-</div>
+   
 <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

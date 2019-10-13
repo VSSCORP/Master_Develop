@@ -337,9 +337,16 @@ html.js,
 .contentArea {
     border-radius: 0 0 5px 5px;
     color: #bb1d48;
-	overflow: auto;
+    overflow: auto;
     height:-webkit-fill-available;
-	padding-bottom: 70px;
+    padding-bottom: 70px;
+    background: #131010;
+}
+.contentArea2 {
+    border-radius: 0 0 5px 5px;
+    color: #bb1d48;
+    overflow: auto;
+    height:-webkit-fill-available;
     background: #131010;
 }
 
