@@ -239,7 +239,7 @@ transform: translate3d(0px, 75%, -200px);  opacity: 0.9;
 }
 .docResizeWin4{
   
-  -webkit-transition: all 0.3s;
+  -webkit-transition: all 0.4s;
     z-index: 21 !important;
 transform: translate3d(0px, 75%, -400px); opacity: 0.7;
     

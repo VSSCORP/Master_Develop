@@ -3,7 +3,9 @@
  <style type="text/css">
     
  .minwindow {  
+ 	-webkit-transition: all 0.4s;
   transform:  translate3d(0px, 100%, 100px) scale(0.1,0.1);
+  opacity:0;
 }
 body{
 	background: url(img/background.jpg) center center/cover fixed no-repeat;
