@@ -503,9 +503,9 @@ $("#menuBtn").click(function(e){
 			for(var i=0;i<maxWin;i++){
 				var currWinElem = docAllWin[i];
 				if(flag){
-					$(currWinElem).addClass("docResizeWin"+(i+1));
+					$(currWinElem).addClass("docResizeWin"+(maxWin-i));
 				}else{
-					$(".window").removeClass("docResizeWin"+(i+1));
+					$(".window").removeClass("docResizeWin"+(maxWin-i));
 				}
 			}
 	}

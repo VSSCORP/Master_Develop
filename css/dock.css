@@ -220,59 +220,38 @@ opacity: .9;
 .docResizeWin1{
   
   -webkit-transition: all 0.3s;
-    left:0px !important;
-    top:0px !important;
-    margin-top: 50vh !important;
-    width: 90% !important;
-    margin-left: 5% !important;
-    z-index: 21 !important;
-
-    
+    z-index: 24 !important; opacity: 1; transform: translate3d(0px, 75%, -100px); 
 }
 .docResizeWin2{
   
   -webkit-transition: all 0.3s;
-    left:0px !important;
-    top:0px !important;
-    margin-top: 56vh !important;
-    width: 80% !important;
-    margin-left: 10% !important;
-    z-index: 22 !important;
-
+    
+    z-index: 23 !important;
+transform: translate3d(0px, 75%, -200px);  opacity: 0.9;
     
 }
 .docResizeWin3{
 
   -webkit-transition: all 0.3s;
-      left:0px !important;
-    top:0px !important;
-    margin-top: 62vh !important;
-    width: 70% !important;
-    margin-left: 15% !important;
-    z-index: 23 !important;
+    z-index: 22 !important;
+    transform: translate3d(0px, 75%, -300px); opacity: 0.8;
 
 }
 .docResizeWin4{
   
   -webkit-transition: all 0.3s;
-    left:0px !important;
-    top:0px !important;
-    margin-top: 68vh !important;
-    width: 60% !important;
-    margin-left: 20% !important;
-    z-index: 24 !important;
-
+    z-index: 21 !important;
+transform: translate3d(0px, 75%, -400px); opacity: 0.7;
     
 }
 .docResizeWin5{
  
   -webkit-transition: all 0.3s;
-     left:0px !important;
-    top:0px !important; 
-    margin-top: 74vh !important;
-    width: 50% !important;
-    margin-left: 25% !important;
-    z-index: 25 !important;
+z-index: 20 !important;     
+  transform: translate3d(0px, 75%, -500px); opacity: 0.6;
   
-  
+}
+
+.page{
+  -webkit-transition: all 0.3s;
 }

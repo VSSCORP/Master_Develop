@@ -13,7 +13,7 @@
   opacity: 0;
 }
 body{
-	background: url(https://harnerdesigns.com/wp-content/uploads/2018/05/universe-wallpaper.jpg) center center/cover fixed no-repeat;
+	background: url(img/background.jpg) center center/cover fixed no-repeat;
 }
   </style>
 
@@ -49,8 +49,11 @@ function hideMenu(){
 			claseMenu();
 }
 //menu-button
-
+function loadHome(){
+	loadWindow('home')
+}
 $(document).ready(function(){
+	setTimeout(loadHome, 2000);
   $("#openMenuBtn").click(function(){
 	  console.log("goto menu");
     //launchpadclose();
