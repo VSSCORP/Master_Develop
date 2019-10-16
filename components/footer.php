@@ -2,15 +2,8 @@
 
  <style type="text/css">
     
- .minwindow {
-  bottom: 0px !important;
-  -webkit-transform: translate(0%, 0px);
-          transform: translate(0%, 0px);
-  width: 200px !important;
-  height:30px  !important;
-  position:fixed !important;
-  overflow:hidden !important;
-  opacity: 0;
+ .minwindow {  
+  transform:  translate3d(0px, 100%, 100px) scale(0.1,0.1);
 }
 body{
 	background: url(img/background.jpg) center center/cover fixed no-repeat;
