@@ -1,9 +1,11 @@
 <!-- <button class="menu-button"><span>Menu</span></button> -->
 
  <style type="text/css">
-    
+  .page{
+  	-webkit-transition: all 0.5s;
+  }
  .minwindow {  
- 	-webkit-transition: all 0.4s;
+ 	-webkit-transition: all 0.5s;
   transform:  translate3d(0px, 100%, 100px) scale(0.1,0.1);
   opacity:0;
 }
@@ -31,7 +33,7 @@ body{
 				var height = $( document ).height();	
 				console.log(height);
 				height = height-31-18;
-            	$("#pages-stack").append('<div class="window page ui-draggable" id="'+page+'" style="height:'+height+'px"></div>');
+            	$("#pages-stack").append('<div class="window page ui-draggable minwindow" id="'+page+'" style="height:'+height+'px"></div>');
                $("#"+page).load("page/"+page+".php");
                selectWindow($("#"+page));
 			}

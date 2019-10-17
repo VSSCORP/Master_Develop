@@ -14,6 +14,6 @@
         <div class="title"><?php echo $windowTitle ?></div>
       </div>
       <input type="hidden" value="1" id="ismax"/>
-      <input type="hidden" value="0" id="ismin"/>
+      <input type="hidden" value="1" id="ismin"/>
   </div>
   

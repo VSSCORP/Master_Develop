@@ -15,18 +15,22 @@ var gw;
 
 		$(".closebutton").on("click", function () {
 			var win = $(this);
-			win.parent().parent().parent().parent().parent().remove();
+			var parr = win.parent().parent().parent().parent().parent();
+			minWin(parr);
+			setInterval(function(){
+				win.parent().parent().parent().parent().parent().remove();	
+			}, 1000);
 		});
 		$("#"+currPage+" .minimizebutton").on("click", function () {
 			var win = $(this);
 			var parr = win.parent().parent().parent().parent().parent();
-			gw = parr;
 			minWin(parr);
 		});
 
 		$("#"+currPage).on("click", function () {
 		  selectWindow($(this));
 		});
+		minWin($("#"+currPage));
 	}
 	function resizeWin(win){
 		var wid = win.width();
