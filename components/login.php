@@ -489,7 +489,7 @@ function restart(){
     logout();
     $("#pageLogin").fadeOut('slow');
     $("#pageLoading").fadeIn('slow');
-    location.reload();
+    setTimeout(function(){location.reload();},2000);
 }
 </script>
 
