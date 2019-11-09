@@ -450,25 +450,46 @@ input[type=password]:focus ~ .tooltip-pass {
 </style>
 <script>
 $(document).ready(function(){
-
-    setTimeout(function(){
-        $("#pageLogin").fadeIn('slow');
-        $("#pageLoading").fadeOut('slow');
-    }, 3000)
+    boot();
 });
 
 function validateMyForm()
 { 
   if($("#password").val()=="admin")
   { 
-    $("#pageLogin").fadeOut('slow');
-    $("#dockmaincontainer").fadeIn('slow');
+      login();
+      $("#password").val("");
     setTimeout(loadHome, 2000);
   }else{
     $( "#password" ).effect( "shake" );
     $("#password").val("");
   }
     return false;
+}
+
+function boot(){
+    setTimeout(function(){
+        $("#pageLogin").fadeIn('slow');
+        $("#pageLoading").fadeOut('slow');
+    }, 3000);
+}
+
+function login(){
+    $("#pageLogin").fadeOut('slow');
+    $("#dockmaincontainer").fadeIn('slow');
+}
+
+function logout(){
+    $("#pageLogin").fadeIn('slow');
+    $("#dockmaincontainer").fadeOut('slow');
+}
+
+
+function restart(){
+    logout();
+    $("#pageLogin").fadeOut('slow');
+    $("#pageLoading").fadeIn('slow');
+    location.reload();
 }
 </script>
 

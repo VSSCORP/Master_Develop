@@ -67,11 +67,11 @@ rel="stylesheet" type="text/css">
 										<li class="spacer"></li>
 										<li class="shortcut" shortcut="&#x2325;&#x2318;&#x238B;">Force Quit...</li>
 										<li class="spacer"></li>
-										<li>Sleep</li>
-										<li>Restart...</li>
-										<li>Shut Down...</li>
+										<li onClick="restart()">Sleep</li>
+										<li onClick="restart()">Restart...</li>
+										<li onClick="restart()">Shut Down...</li>
 										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x21E7;&#x2318;Q">Log Out Ram Katneni...</li>
+										<li class="shortcut" onClick="logout()" shortcut="&#x21E7;&#x2318;Q">Log Out Ram Katneni...</li>
 								</ul>
 						</div>
 				</li>
