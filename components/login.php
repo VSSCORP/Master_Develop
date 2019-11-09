@@ -462,6 +462,7 @@ function validateMyForm()
     setTimeout(loadHome, 2000);
   }else{
     $( "#password" ).effect( "shake" );
+    $( ".submit" ).effect( "shake" );
     $("#password").val("");
   }
     return false;
