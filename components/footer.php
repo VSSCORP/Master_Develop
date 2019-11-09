@@ -47,10 +47,10 @@ function hideMenu(){
 }
 //menu-button
 function loadHome(){
-	loadWindow('home')
+	loadWindow('home');
 }
 $(document).ready(function(){
-	setTimeout(loadHome, 2000);
+	//setTimeout(loadHome, 2000);
   $("#openMenuBtn").click(function(){
 	  console.log("goto menu");
     //launchpadclose();

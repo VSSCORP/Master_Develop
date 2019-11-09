@@ -1,5 +1,5 @@
 var gw;
-//$(document).ready(function(){
+try{
 	if(currPage){
 		$("#"+currPage).draggable({ handle: ".ui-draggable-handle" });
 
@@ -14,17 +14,25 @@ var gw;
 		});
 
 		$(".closebutton").on("click", function () {
+			try{
 			var win = $(this);
 			var parr = win.parent().parent().parent().parent().parent();
 			minWin(parr);
 			setInterval(function(){
 				win.parent().parent().parent().parent().parent().remove();	
 			}, 1000);
+		}catch(err){
+			console.log(err.message);
+	}
 		});
 		$("#"+currPage+" .minimizebutton").on("click", function () {
+			try{
 			var win = $(this);
 			var parr = win.parent().parent().parent().parent().parent();
 			minWin(parr);
+		}catch(err){
+			console.log(err.message);
+	}
 		});
 
 		$("#"+currPage).on("click", function () {
@@ -32,7 +40,11 @@ var gw;
 		});
 		minWin($("#"+currPage));
 	}
+}catch(err){
+	console.log(err.message);
+}
 	function resizeWin(win){
+		try{
 		var wid = win.width();
 		var hei = win.height();
     	if(win.find("#ismax").val()=='1'){
@@ -43,9 +55,13 @@ var gw;
     		win.width(wid*2);
     		win.height(hei*2);
     		win.find("#ismax").val(1);
-    	}
+		}
+	}catch(err){
+		console.log(err.message);
+}
 	}
 	function minWin(win){
+try{
 		console.log(win);
 
 		if(win.find("#ismin").val()=='0'){
@@ -56,12 +72,19 @@ var gw;
     		win.find("#ismin").val(0);
     		selectWindow(win);
     	}
+	}catch(err){
+		console.log(err.message);
+}
 	}
   	function selectWindow(w) {
-	  var id = w.attr("id");
+try{
+		var id = w.attr("id");
 	  $(".window:not(#" + id + ")").css("z-index", "2");
 	  w.css("z-index", "10");
 	  hideMenu();
+	}catch(err){
+		console.log(err.message);
+}
 	}
 
 //});

@@ -13,5 +13,6 @@
 <!-- <?php include 'components/launchpad.php';?> -->
 <?php include 'components/footer.php';?>
 <?php include 'components/galaryPopup.php';?>
+<?php include 'components/login.php';?>
 </body>
 </head>

@@ -75,135 +75,6 @@ rel="stylesheet" type="text/css">
 								</ul>
 						</div>
 				</li>
-			<!-- 	<li><strong>Finder</strong>
-						<div class="submenu">
-								<ul>
-										<li>About Finder</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x2318;,">Preferences...</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x21E7;&#x2318;&#x232b;">Empty Trash...</li>
-
-										<li>Secure Empty Trash...</li>
-										<li class="spacer"></li>
-										<li class="hasSubMenu">Services</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x2318;H">Hide Finder</li>
-
-										<li class="shortcut" shortcut="&#x2325;&#x2318;H">Hide Others</li>
-
-										<li class="noChoice">Show All</li>
-
-								</ul>
-						</div>
-				</li>
-				<li>File
-						<div class="submenu">
-								<ul>
-										<li class="shortcut" shortcut="&#x2318;N">New Finder Window</li>
-										<li class="shortcut" shortcut="&#x21E7;&#x2318;N">New Folder</li>
-										<li class="shortcut noChoice" shortcut="&#x21E7;&#x2318;N">New Folder With Selection</li>
-										<li class="shortcut" shortcut="&#x2325;&#x2318;N">New Smart Folder</li>
-										<li>New Burn Folder</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;O">Open</li>
-										<li class="hasSubMenu noChoice">Open With</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;P">Print</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;W">Close Window</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x2318;I">Get Info</li>
-										<li class="spacer"></li>
-										<li class="noChoice">Compress</li>
-										<li class="spacer"></li>
-										<li class="shortcut noChoice" shortcut="&#x2318;D">Duplicate</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;L">Make Alias</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;Y">Quick Look</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;R">Show Original</li>
-										<li class="shortcut noChoice" shortcut="&#x21E7;&#x2318;P">Add to Dock</li>
-										<li class="spacer"></li>
-										<li class="shortcut noChoice" shortcut="&#x2318;&#x232b;">Move to Trash</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;E">Eject</li>
-										<li>Burn "Desktop" to Disc...</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x2318;F">Find</li>
-								</ul>
-						</div>
-				</li>
-				<li>Edit
-						<div class="submenu">
-								<ul>
-										<li class="noChoice shortcut" shortcut="&#x2318;Z">Undo</li>
-										<li class="noChoice shortcut" shortcut="&#x21E7;&#x2318;Z">Redo</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x2318;X">Cut</li>
-										<li class="shortcut" shortcut="&#x2318;C">Copy</li>
-										<li class="shortcut" shortcut="&#x2318;V">Paste</li>
-										<li class="shortcut" shortcut="&#x2318;A">Select All</li>
-										<li class="spacer"></li>
-										<li>Show Clipboard</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="fn fn">Start Dictation</li>
-										<li>Special Characters...</li>
-								</ul>
-						</div>
-				</li>
-				<li>View
-						<div class="submenu">
-								<ul>
-										<li class="noChoice shortcut" shortcut="&#x2318;1">as Icons</li>
-										<li class="noChoice shortcut" shortcut="&#x2318;2">as List</li>
-										<li class="noChoice shortcut" shortcut="&#x2318;3">as Columns</li>
-										<li class="noChoice shortcut" shortcut="&#x2318;4">as Cover Flow</li>
-										<li class="spacer"></li>
-										<li class="noChoice">Clean Up Selection</li>
-										<li class="hasSubMenu">Clean Up By</li>
-										<li class="hasSubMenu">Sort By</li>
-										<li class="spacer"></li>
-										<li class="noChoice">Hide Path Bar</li>
-										<li class="noChoice shortcut" shortcut="&#x2318;/">Hide Status Bar</li>
-										<li class="noChoice shortcut" shortcut="&#x2325;&#x2318;S">Hide Sidebar</li>
-										<li class="spacer"></li>
-										<li class="noChoice shortcut" shortcut="&#x2325;&#x2318;T">Toolbar</li>
-										<li class="noChoice">Customize Toolbar...</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x2318;J">Show View Options</li>
-								</ul>
-						</div>
-				</li>
-				<li>Go
-						<div class="submenu">
-								<ul>
-										<li class="shortcut noChoice" shortcut="&#x2318;[">Back</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;]">Forward</li>
-										<li class="shortcut" shortcut="&#x2318;&uarr;">Enclosing Folder</li>
-										<li class="spacer"></li>
-										<li class="hasSubMenu">Recent Folders</li>
-										<li class="spacer"></li>
-										<li class="shortcut" shortcut="&#x21E7;&#x2318;G">Go to Folder...</li>
-										<li class="shortcut" shortcut="&#x2318;K">Connect to Server...</li>
-								</ul>
-						</div>
-				</li>
-				<li>Window
-						<div class="submenu">
-								<ul>
-										<li class="shortcut noChoice" shortcut="&#x2318;M">Minimize</li>
-										<li class="noChoice">Zoom</li>
-										<li class="shortcut noChoice" shortcut="&#x2318;`">Cycle Through Windows</li>
-										<li class="spacer"></li>
-										<li class="noChoice">Bring All to Front</li>
-								</ul>
-						</div>
-				</li>
-				<li>Help
-						<div class="submenu">
-								<ul>
-										<li class="search">Search
-												<input id="search" type="text"></input>
-										</li>
-										<li>Help Center</li>
-								</ul>
-						</div>
-				</li> -->
 		</ul>
 		<ul class="right">
 				<!-- <li><a href="#" target='_blank'><i class="fa fa-codepen"></i></a></li> -->
@@ -407,6 +278,7 @@ a:hover {
 	
 	//Clock;
 function updateClock() {
+	try{
 		var currentTime = new Date();
 		var currentHours = currentTime.getHours();
 		var currentMinutes = currentTime.getMinutes();
@@ -459,22 +331,32 @@ function updateClock() {
 		var longTimeString = longDay + ", " + month + " " + date + ", " + year;
 		$("#clock").html(currentTimeString);
 		$("#date").html(longTimeString);
-
+	}catch(err){
+			console.log(err.message);
+	}
 }
 
 $(document).ready(function() {
+	try{
 		updateClock();
 		setInterval('updateClock()', 1000);
+	}catch(err){
+			console.log(err.message);
+	}
 });
 
 
 //Menu Bar Selection
 $(".iostaskbar ul li").click(function(e) {
+	try{
 		e.stopPropagation();
 		$(".visible").removeClass("visible");
 		$(this).children(" div.submenu").addClass("visible").fadeIn();
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
+	}catch(err){
+		console.log(err.message);
+	}
 });
 
 var isMenuOpen = false;
@@ -484,20 +366,25 @@ $("#menuBtn").click(function(e){
 
 // toggle menu fn
 	function toggleMenu() {
-		if( isMenuOpen ) {
-			$(".pages-nav").removeClass('pages-nav--open');
-			$("#menuBtn").css("z-index","1");
-			isMenuOpen = false;
+		try{
+			if( isMenuOpen ) {
+				$(".pages-nav").removeClass('pages-nav--open');
+				$("#menuBtn").css("z-index","1");
+				isMenuOpen = false;
+			}
+			else {
+				$(".pages-nav").addClass('pages-nav--open');
+				$("#menuBtn").css("z-index","30");
+				isMenuOpen = true;
+			}
+			resizeDocWindows(isMenuOpen);
+		}catch(err){
+			console.log(err.message);
 		}
-		else {
-			$(".pages-nav").addClass('pages-nav--open');
-			$("#menuBtn").css("z-index","30");
-			isMenuOpen = true;
-		}
-		resizeDocWindows(isMenuOpen);
 	}
 
 	function resizeDocWindows(flag){
+		try{
 			var docAllWin =$("#pages-stack .window");
 			var maxWin = Math.min(docAllWin.length,5);
 			for(var i=0;i<maxWin;i++){
@@ -508,14 +395,20 @@ $("#menuBtn").click(function(e){
 					$(".window").removeClass("docResizeWin"+(maxWin-i));
 				}
 			}
+		}catch(err){
+			console.log(err.message);
+		}
 	}
 
 	function claseMenu(){
-		$(".pages-nav").removeClass('pages-nav--open');
+		try{
+			$(".pages-nav").removeClass('pages-nav--open');
 			$("#menuBtn").css("z-index","1");
 			isMenuOpen = false;
-
-		resizeDocWindows(isMenuOpen);
+			resizeDocWindows(isMenuOpen);
+		}catch(err){
+			console.log(err.message);
+		}
 	}
 	
 </script>
