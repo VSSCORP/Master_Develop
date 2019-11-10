@@ -25,7 +25,7 @@
         <div class="validate">
         <form name="myForm" onsubmit="event.preventDefault(); validateMyForm();"> 
         	<input type="password" id="password" placeholder="Password" />
-            <input type="button" class="submit" />
+            <input type="submit" class="submit" />
             <div class="tooltip-pass">
             <p>Password: admin</p>
             </div>

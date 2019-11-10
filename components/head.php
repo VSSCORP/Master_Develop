@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	
 	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/detail.css" />
 	<link rel="stylesheet" type="text/css" href="css/quotes.css" />
@@ -94,8 +95,7 @@ rel="stylesheet" type="text/css">
 								<ul>
 										<li id="date" class="noChoice"></li>
 										<li class="spacer"></li>
-										<li>View as Analog</li>
-										<li>View as Digital</li>
+										<li class="noChoice" id="datepickercover"><div id="datepicker"></div></li>
 										<li class="spacer"></li>
 										<li>Open Date & Time Preferences...</li>
 								</ul>
@@ -338,6 +338,7 @@ function updateClock() {
 
 $(document).ready(function() {
 	try{
+		$( "#datepicker" ).datepicker();
 		updateClock();
 		setInterval('updateClock()', 1000);
 	}catch(err){
@@ -349,6 +350,8 @@ $(document).ready(function() {
 //Menu Bar Selection
 $(".iostaskbar ul li").click(function(e) {
 	try{
+		if(this.id=="datepickercover")
+			return true;
 		e.stopPropagation();
 		$(".visible").removeClass("visible");
 		$(this).children(" div.submenu").addClass("visible").fadeIn();
