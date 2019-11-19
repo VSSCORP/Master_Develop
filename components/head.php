@@ -12,7 +12,7 @@
 	
 	
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/detail.css" />
 	<link rel="stylesheet" type="text/css" href="css/quotes.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -78,8 +78,6 @@ rel="stylesheet" type="text/css">
 				</li>
 		</ul>
 		<ul class="right">
-				<!-- <li><a href="#" target='_blank'><i class="fa fa-codepen"></i></a></li> -->
-				<li><a href="#" target='_blank'><i class="fa fa-twitter"></i></a></li>
 				<li id="volume-icon-li"><i class="fa fa-volume-off" id="volume-icon"></i>
 						<div class="submenu">
 								<ul class="volume">
@@ -104,7 +102,11 @@ rel="stylesheet" type="text/css">
 				<li>Ram Katneni
 						<div class="submenu">
 								<ul>
-										<li><a href="http://www.theramkatneni.com/" target="_blank">Website</a></li>
+								<li><a href="https://www.instagram.com/ram_katneni" target="_blank"><i class="fa fa-instagram" style="margin-right:8px;"></i>Instagram</a></li>
+								<li><a href="https://twitter.com/" target='_blank'><i class="fa fa-twitter" style="margin-right:8px;"></i>Twitter</a></li>
+								<li><a href="images/snapcode.jpeg" target="_blank"><i class="fa fa-snapchat-ghost" style="margin-right:8px;"></i>Snapchat</a></li>
+				 				<li><a href="https://codepen.io/" target='_blank'><i class="fa fa-codepen" style="margin-right:8px;"></i>Codepen</a></li> 
+								 <li><a href="#" onclick="loadWindow('resumefile')"><i class="fa fa-file-text" style="margin-right:8px;"></i>Resume</a></li>
 								</ul>
 						</div>
 				</li>

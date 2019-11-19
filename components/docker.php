@@ -51,16 +51,7 @@
 
         <a href="#" target="_blank"><img src="icons/Spotify.svg"/></a>
       </li>
-      <li  class="tooltipwrap">
-      <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Snapchat</div></div>
-
-        <a href="images/snapcode.jpeg" target="_blank"><img src="icons/Snapchat.svg"></a>
-      </li>
-      <li  class="tooltipwrap">
-      <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Instagram</div></div>
-
-         <a href="https://www.instagram.com/ram_katneni" target="_blank"><img src="icons/instagram.svg"/></a>
-      </li>
+      
       <li  class="tooltipwrap">
       <div class="tooltip top"><div class="tooltip-arrow" style="left: 50%;"></div><div class="tooltip-inner">Trash</div></div>
 
